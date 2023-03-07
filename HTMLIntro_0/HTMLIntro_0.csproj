@@ -67,11 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\armor-holy-knight-medieval-wallpaper-preview %281%29.jpg" />
+    <Content Include="Images\Star-Destroyer_ab6b94bb.jpeg" />
     <Content Include="Images\TheWarrior.jpg" />
+    <Content Include="Pages\DivisionKullanimi_5.html" />
+    <Content Include="Pages\DivisionSablonu_6.html" />
     <Content Include="Pages\Index_0.html" />
     <Content Include="Pages\Index_1.html" />
     <Content Include="Pages\LinkIslemleri_2.html" />
     <Content Include="Pages\ListIslemleri_3.html" />
+    <Content Include="Pages\TableIslemleri_4.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +90,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pictures\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
